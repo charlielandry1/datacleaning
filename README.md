@@ -8,11 +8,11 @@ The original project is from the Human Activity Recognition Using Smartphones Da
 
 ========================================================================
 
-The script submitted as part of this project is entitled "assignment.R". It will be found in the same GitHub repository as this README file. Also found in this repository are:
+The script submitted as part of this project is entitled "run_analysts.R". It will be found in the same GitHub repository as this README file. Also found in this repository are:
 - assignment.txt: a tidy data set containing the results of the assingment.R script
 - CodeBook.md: a CodeBook detailing the variables and labels found in the tidy data set
 
-The purpose of assignment.R script is to:
+The purpose of run_analysis.R script is to:
 - download and extract the Human Activity Recognition Using Smartphones Data Set ("HARUSDS") .zip file
 - load the various data sets from this file into R
 - combine the "test" and "training" data sets (more information on these data sets in the original README below)
@@ -21,7 +21,7 @@ The purpose of assignment.R script is to:
 - select only the variables measuring standard deviations and means
 - create a tidy data set showing the average of each variable for each subject performing each of the six activities
 
-There is optional code in the script to write this final data set to a table, which will be titled "assignment.txt". There is also optional code to load this file. Both lines of code are found at the end of "assignment.R" and are commented out and accompanied by descriptive comments.
+There is optional code in the script to write this final data set to a table, which will be titled "assignment.txt". There is also optional code to load this file. Both lines of code are found at the end of "run_analysis.R" and are commented out and accompanied by descriptive comments.
 
 
 
