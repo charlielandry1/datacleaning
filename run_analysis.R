@@ -73,6 +73,6 @@ avg_measure <- tidy_measure %>% group_by(subject, activity, feature) %>%
   summarize(average = mean(value))
 
 ## and if you want to write the table, you can use this:
-## write.table(avg_measure, file = "assignment.txt")
+## write.table(avg_measure, file = "assignment.txt", row.name = FALSE)
 ## to read it back, you can use this:
 ## assignment <- read.table("assignment.txt", header = TRUE)
